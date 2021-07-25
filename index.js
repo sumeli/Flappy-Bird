@@ -9,11 +9,11 @@ var pipeNorth = new Image();
 var pipeSouth = new Image();
 
 //loading the images
-bird.src = "images/bird.png";
-bg.src = "images/bg.png";
-fg.src = "images/fg.png";
-pipeNorth.src = "images/pipeNorth.png";
-pipeSouth.src = "images/pipeSouth.png";
+bird.src = "bird.png";
+bg.src = "bg.png";
+fg.src = "fg.png";
+pipeNorth.src = "pipeNorth.png";
+pipeSouth.src = "pipeSouth.png";
 
 //some important variables 
 var gap = 350;
@@ -28,8 +28,8 @@ var fly = new Audio();
 var scor = new Audio();
 
 //adding the sounds
-fly.src = "sounds/sounds_fly.mp3";
-scor.src = "sounds/sounds_score.mp3";
+fly.src = "sounds_fly.mp3";
+scor.src = "sounds_score.mp3";
 
 //on key down
 document.addEventListener("keydown", moveUp);
